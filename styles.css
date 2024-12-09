@@ -1,0 +1,104 @@
+body {
+    font-family: "cursive", monospace;
+    /*background-color: #7FB3D5;*/
+    background: linear-gradient(#4caf4fb9, #1e9fb6);
+    margin: auto;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color:#CACFD2;*/
+    background: radial-gradient(#89fc8d, #8b8cd6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3, label, tr {
+    text-align: center;
+    color: #010100;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a0edb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border-color: #010100;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub-ingreso:hover {
+    background-color: #06cc27da;
+}
+
+.sub-gasto:hover {
+    background-color: #e63522d2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid none;
+    text-align: left;
+}
+
+#tabla-ingresos th {
+    background-color: #4CAF50;
+    border-radius: 10px;
+}
+
+#tabla-gastos th {
+    background-color: #FA2B15;
+    border-radius: 10px;
+}
+
+#total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    font-family: "Sanvito", monospace;
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+img {
+        display: block;
+        width: 30%;
+        height: 30%;
+        margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
